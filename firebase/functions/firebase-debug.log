@@ -1,0 +1,68 @@
+[debug] [2018-07-05T13:37:39.403Z] ----------------------------------------------------------------------
+[debug] [2018-07-05T13:37:39.419Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Vinoth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-05T13:37:39.419Z] CLI Version:   3.19.3
+[debug] [2018-07-05T13:37:39.419Z] Platform:      win32
+[debug] [2018-07-05T13:37:39.419Z] Node Version:  v9.10.1
+[debug] [2018-07-05T13:37:39.419Z] Time:          Thu Jul 05 2018 19:07:39 GMT+0530 (India Standard Time)
+[debug] [2018-07-05T13:37:39.419Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-05T13:37:39.466Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-05T13:37:39.466Z] > authorizing via signed-in user
+[debug] [2018-07-05T13:37:39.482Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/app-server-config-local  
+  
+ Thu Jul 05 2018 19:07:39 GMT+0530 (India Standard Time)
+[debug] [2018-07-05T13:37:40.983Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-05T13:37:40.983Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/app-server-config-local/tokens  
+  
+ Thu Jul 05 2018 19:07:40 GMT+0530 (India Standard Time)
+[debug] [2018-07-05T13:37:42.015Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-05T13:37:42.015Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/app-server-config-local  
+  
+ Thu Jul 05 2018 19:07:42 GMT+0530 (India Standard Time)
+[debug] [2018-07-05T13:37:43.864Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'E:\posting'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-07-05T13:37:46.996Z] Fetching environment
+[debug] [2018-07-05T13:37:46.996Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/476586054583:getServerAppConfig  
+  
+ Thu Jul 05 2018 19:07:46 GMT+0530 (India Standard Time)
+[debug] [2018-07-05T13:37:46.996Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/476586054583/clients/_:getWebAppConfig  
+  
+ Thu Jul 05 2018 19:07:46 GMT+0530 (India Standard Time)
+[debug] [2018-07-05T13:37:47.903Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-05T13:37:47.903Z] Starting @google-cloud/functions-emulator
+[debug] [2018-07-05T13:37:48.013Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-05T13:37:53.231Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-07-05T13:37:54.521Z] Error during trigger parsing:  Error occurred while parsing your function triggers.
+
+TypeError: firebase.database(...).ref(...).then is not a function
+    at Object.<anonymous> (E:\posting\functions\index.js:21:2)
+    at Module._compile (module.js:649:30)
+    at Object.Module._extensions..js (module.js:660:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:501:12)
+    at Function.Module._load (module.js:493:3)
+    at Module.require (module.js:593:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\Vinoth\AppData\Roaming\npm\node_modules\firebase-tools\lib\triggerParser.js:21:11
+    at Object.<anonymous> (C:\Users\Vinoth\AppData\Roaming\npm\node_modules\firebase-tools\lib\triggerParser.js:75:3)
+[warn] !  functions: Error from emulator. Error occurred while parsing your function triggers.
+
+TypeError: firebase.database(...).ref(...).then is not a function
+    at Object.<anonymous> (E:\posting\functions\index.js:21:2)
+    at Module._compile (module.js:649:30)
+    at Object.Module._extensions..js (module.js:660:10)
+    at Module.load (module.js:561:32)
+    at tryModuleLoad (module.js:501:12)
+    at Function.Module._load (module.js:493:3)
+    at Module.require (module.js:593:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\Vinoth\AppData\Roaming\npm\node_modules\firebase-tools\lib\triggerParser.js:21:11
+    at Object.<anonymous> (C:\Users\Vinoth\AppData\Roaming\npm\node_modules\firebase-tools\lib\triggerParser.js:75:3)
+[debug] [2018-07-05T13:37:54.521Z] 

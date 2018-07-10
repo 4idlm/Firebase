@@ -1,0 +1,70 @@
+body{
+    height:100vh;
+    object-fit: contain;
+   color: #261e21;
+    background:  #f8f8f8 url(../style/template.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hints{
+
+    font-weight: 300;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none;
+}
+.camp-btn{
+    background: #1193d4;
+    color: #fff;
+    font-weight: 600;
+
+}
+.camp-btn:hover{
+    color:#fff;
+}
+.campagin-border{
+border: 1px solid #fff;
+background:#fff;
+box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+}
+ 
+.ver-horzontal-center {
+   
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.flex-wrap{
+    flex-wrap: initial!important
+}
+
+@media(max-width:767px){
+
+    .natcuetitle{
+         font-size: 16px;
+    }
+    .hints,.camp-btn {
+        font-size: 14px;
+    }
+}
+
+.link{
+
+    
+color: #e63c3c;
+font-size: 22px;
+font-weight: 600;
+
+}
+
+.h100px
+{
+    font-size:100px;
+}
+ 
